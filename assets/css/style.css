@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.header nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.header .gb_Ve{
+    height: 22px;
+    width: 22px;
+}
+.header .nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.header .nav-item:hover{
+    cursor: pointer;
+}
+.header .profile-img{
+    border-radius: 50%;
+}
+
+.main{
+    height: calc(100vh - 146px);
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer{
+    height: 96px;
+}
