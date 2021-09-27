@@ -58,3 +58,35 @@ a:hover{
 .footer{
     height: 96px;
 }
+
+.form input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 582px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid rgb(197, 197, 197) .1px;
+}
+
+.form .buttoncontainer{
+    text-align: center;
+}
+
+.button{
+    padding: 8px;
+    border: none;
+    margin: 8px 5px;
+    background-color: #f8f9fa;
+    border-radius: 2px;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 1px 1px rgba(117,117,117,25%);
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(117,117,117,25%);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(117,117,117,25%);
+}
+
+.main p {
+    text-align: center;
+    font-size: 12px;
+}
